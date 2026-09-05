@@ -1,0 +1,121 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:  white;
+    height: 1200px;
+    width: 100%;
+    font-family: Consolas,monospace ;
+     
+}
+.main-first{
+   width: 100%;
+}
+.first{
+     
+    background-color: rgba(13, 13, 233, 0.855);
+    height: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px  ;
+    margin-left: 140px;
+    border-radius: 15px;
+    border-color: rgba(21, 198, 154, 0.972);
+    box-shadow: 0 0 10px 2px;
+    /* transition: transform 0.3s ease,
+    box-shadow 0.3s ease; */
+    transition: all 0.3s ease;
+}
+.first:hover{
+    /* transform: perspective(800px)
+    rotateX(3deg)rotateY(-3deg)
+    translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4); */
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+.first-class-1{
+    
+    font-size: 50px;
+    color: aliceblue;
+}
+.first-class-2{
+     color: aliceblue;
+    font-size: 30px;
+    padding-top: 20px;
+}
+ 
+.main-second{
+    
+    width: 100%;
+    
+   
+}
+.second{
+    height:100px ;
+    width: 80%;
+     background-color: white;
+    font-size: 30px;
+   margin-top: 50px;
+    margin-left: 140px;
+   border-radius: 15px;
+    border-color:  rgb(101, 97, 97);
+    box-shadow: 0 0 10px 2px;
+     padding-left: 20px;
+     padding-top: 25px;
+      transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
+   /* transition: all 0.3s ease; */
+}
+
+select{
+    font-size: 25px;
+}
+ 
+.second:hover{
+     transform: perspective(1000px)
+    rotateX(3deg)rotateY(-3deg)
+    translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+    /* transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4); */
+}
+.main-third{
+  width: 100%;
+}
+.third{
+    height: 150px; 
+    width: 80%;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 140px;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: rgb(101, 97, 97);
+    border-radius:15px ;
+    transition: all 0.3s ease;
+    border-color: rgb(77, 73, 73);
+}
+.third:hover{
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+}
+ul{
+    display: flex;
+    gap: 150px;
+    list-style: none;
+    padding-top: 10px;
+}
+.fourth{
+     display: flex;
+    gap: 220px;
+    list-style: none;
+    padding-top: 10px;
+}
+ 
