@@ -1,145 +1,227 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
+     padding: 0%;
+     margin: 0%;
+     box-sizing: border-box;
 }
 body{
-    background-color:  white;
-    height: 1200px;
-    width: 100%;
-    font-family: Consolas,monospace ;
+     background-color:  linear-gradient(135deg,#eef6ff,#dcecff,#f7fbff);
+     color: #172554;
+     background-image: url(https://www.slidekit.com/wp-content/uploads/2023/12/Aesthetic-Google-Slide-Background.jpg);
+     background-repeat: no-repeat;
+     background-position:fixed ;
+     background-size: 100% 100%;
+     
+     
+     height: 1500px;
+     width: 100%;
+     font-family: Consolas,monospace ;
      
 }
 .main-first{
-   width: 100%;
+     width: 100%;
 }
 .first{
      
-    background-color: rgba(13, 13, 233, 0.855);
-    height: 200px;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px  ;
-    margin-left: 140px;
-    border-radius: 15px;
-    border-color: rgba(21, 198, 154, 0.972);
-    box-shadow: 0 0 10px 2px;
-   transition: all 0.3s ease;
+     background-color: rgba(13, 13, 233, 0.855);
+     height: 200px;
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px  ;
+     margin-left: 140px;
+     border-radius: 15px;
+     border-color: rgba(21, 198, 154, 0.972);
+     box-shadow: 0 0 10px 2px;
+     transition: all 0.3s ease;
 }
 .first:hover{
      transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+     box-shadow: 0 15px 30px rgba(0,0,0,0.4);
 }
 .first-class-1{
     
-    font-size: 50px;
-    color: aliceblue;
+     font-size: 50px;
+     color: aliceblue;
 }
 .first-class-2{
      color: aliceblue;
-    font-size: 30px;
-    padding-top: 20px;
+     font-size: 30px;
+     padding-top: 20px;
 }
  
 .main-second{
     
-    width: 100%;
+     width: 100%;
     
    
 }
 .second{
-    height:100px ;
-    width: 80%;
+     height:100px ;
+     width: 80%;
      background-color: white;
-    font-size: 30px;
-   margin-top: 50px;
-    margin-left: 140px;
-   border-radius: 15px;
-    border-color:  rgb(101, 97, 97);
-    box-shadow: 0 0 10px 2px;
+     font-size: 30px;
+     margin-top: 50px;
+     margin-left: 140px;
+     border-radius: 15px;
+     border-color:  rgb(101, 97, 97);
+     box-shadow: 0 0 10px 2px;
      padding-left: 20px;
      padding-top: 25px;
-      transition: transform 0.3s ease,
-    box-shadow 0.3s ease;
+     transition: transform 0.3s ease,
+     box-shadow 0.3s ease;
     
 }
 
 select{
-    font-size: 25px;
+     font-size: 25px;
 }
  
 .second:hover{
      transform: perspective(1000px)
-    rotateX(3deg)rotateY(-3deg)
-    translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+     rotateX(3deg)rotateY(-3deg)
+     translateY(-5px);
+     box-shadow: 0 15px 30px rgba(0,0,0,0.4);
     }
 .main-third{
-  width: 100%;
+      width: 100%;
 }
 .third{
-    height: 150px; 
-    width: 80%;
-    background-color: white;
-    font-size: 15px;
-    margin-top: 50px;
-    margin-left: 140px;
-    padding-top: 10px;
-    padding-left: 15px;
-    color: rgb(101, 97, 97);
-    border-radius:15px ;
-    transition: all 0.3s ease;
-    border-color: rgb(77, 73, 73);
+     height: 150px; 
+     width: 80%;
+     background-color: white;
+     font-size: 15px;
+     margin-top: 50px;
+     margin-left: 140px;
+     padding-top: 10px;
+     padding-left: 15px;
+     color: rgb(101, 97, 97);
+     border-radius:15px ;
+     transition: all 0.3s ease;
+     border-color: rgb(77, 73, 73);
 }
 .third:hover{
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+     transform: translateY(-8px) scale(1.02);
+     box-shadow: 0 15px 30px rgba(0,0,0,0.4);
 }
 ul{
-    display: flex;
-    gap: 150px;
-    list-style: none;
-    padding-top: 10px;
+     display: flex;
+     gap: 150px;
+     list-style: none;
+     padding-top: 10px;
 }
 .fourth{
      display: flex;
-    gap: 220px;
-    list-style: none;
-    padding-top: 10px;
+     gap: 220px;
+     list-style: none;
+     padding-top: 10px;
 }
 .main-fourth{
-   display: flex;
-   flex-direction: row;
-   gap: 200px;
-   margin-left: 140px;
-   margin-top: 50px;
-   margin-right: 140px;
+     display: flex;
+     flex-direction: row;
+     gap: 200px;
+     margin-left: 140px;
+     margin-top: 50px;
+     margin-right: 140px;
   
 }
 .fourth-1,.fourth-2,.fourth-3{
- height: 400px;
- width: 500px;
- background-color: rgb(243, 247, 250);
- border-color: rgb(144, 20, 20);
- border-color: 15px;
-   padding-top: 20px;
-   padding-left: 50px;
-   transition: all 0.3s ease;
+     height: 400px;
+     width: 500px;
+     background-color: rgb(243, 247, 250);
+     border-color: rgb(144, 20, 20);
+     border-color: 15px;
+     padding-top: 20px;
+     padding-left: 50px;
+     transition: all 0.3s ease;
 }
 .fourth-1:hover,.fourth-2:hover,.fourth-3:hover{
      transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+     box-shadow: 0 15px 30px rgba(0,0,0,0.4);
      
 }
 .fourth-list-1,.fourth-list-2{
-    padding-top: 140px;
-    padding-left: 40px;
+     padding-top: 140px;
+     padding-left: 40px;
 }
 .fourth-list-3{
-    padding-top: 140px;
-    padding-left: 25px;
+     padding-top: 140px;
+     padding-left: 25px;
 }
- 
+.main-fifth{
+     margin-top: 70px;
+     margin-left: 140px;
+     padding-left: 10px;
+     width: 80%;
+     transition: all 0.3s ease;
+     border-radius: 5px;
+     color: rgba(51, 48, 48, 0.24);
+     border-right-style: 12px;
+     box-shadow: 1px 1px 5px 3px rgb(93, 238, 189);
+}
+.fifth-div{
+     background-color:  white;
+     
+}
+.fifth-div h1{
+     padding-left: 0px 10px 0px 10px;
+
+}
+table{
+     padding-left: 100px;
+     background-color: antiquewhite;
+     width: 100%;
+}
+td{
+     font-size: 30px;
+     padding: 0px 200px 0px 0px;
+}
+.main-fifth:hover{
+     transform: translateY(-8px) scale(1.02);
+     box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+     
+}
+.Second-last{
+     margin-top: 80px;
+     margin-left: 140px;
+     padding: 0px 50px 0px 0px;
+       
+}
+button{
+     background-color: blue;
+     width: 300px;
+     height: 70px;
+     color: white;
+     border-radius: 12px;
+     font-size: 30px;
+     box-shadow: 1px 1px 5px 3px black;
+      transition: all 0.3s ease;
+}
+.button-1{
+    padding-right:50px ;
+}
+.Second-last li{
+    display: flex;
+    flex-direction: row;
+    gap:156px ;
+}
+button:hover{
+     transform: translateY(-8px) scale(1.02);
+     box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+     
+}
+.result-div{
+    background-color:white;
+    border-radius: 12px;
+    margin-top: 80px;
+    margin-left: 140px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-right: 140px;
+    color: rgb(42, 41, 41);
+    box-shadow: 1px 1px 5px 3px black;
+}
+.result-div h2{
+    padding-top: 20px;
+}
