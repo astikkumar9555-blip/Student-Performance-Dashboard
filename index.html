@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="parallax-background"></div>
-    <div class="dashboard"></div>
+    
+    
     <div class="main-first">
          <div class="first">
         <h1 class="first-class-1">Student Performance Dashboard</h1>
@@ -17,14 +17,8 @@
     </div>
    <div class="main-second">
     <div class="second">
-    <label for="name">Select Student:</label>
-    <select name="name" id="name">
-        <option value="Select Student ">Select Student</option>
-        <option value="Ashutosh ">Ashutosh Kumar</option>
-        <option value="Aman">Aman</option>
-        <option value="Rahul">Rahul</option>
-        <option value="Rohit">Rohit</option>
-    </select>
+    <label id="studentSelect" for="name">Select Student:</label>
+     <select name="name" id="name"></select>
    
     </div> 
    </div>
@@ -53,7 +47,8 @@
 
         <div class="fourth-2">
            <h1>Percentage</h1>
-           <ul class="fourth-list-2">---</li>
+           <ul> 
+            <li class="fourth-list-2">---</li>
            </ul>
         </div>
 
@@ -65,20 +60,7 @@
         </div>
          
     </div>
-    <section class="main-fifth">
-        <div class="fifth-div">
-             <h1>Student Performance</h1>
-        <table>
-            <thead>
-                 <tr>
-                <td>Subject</td>
-                <td>Marks</td>
-            </tr>
-            </thead>
-             
-        </table>
-        </div>
-    </section>
+    
 
     <section class="Second-last">
         <li>
@@ -101,5 +83,6 @@
     
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
