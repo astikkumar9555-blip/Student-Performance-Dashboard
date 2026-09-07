@@ -46,12 +46,7 @@
  const totalButton=buttons[0];
  const percentageButton=buttons[1];
  const gradeButton=buttons[2];
-
- const table=document.querySelector("table");
-
-
- const tableBody=document.createElement("tbody");
- table.appendChild(tableBody);
+ 
 
 
  const defaultOption=document.createElement("option");
@@ -116,20 +111,7 @@
 
         const studentGrade=calculateGrade(percent);
         grade.textContent=studentGrade;
-        tableBody.innerHTML="";
-        Object.entries(student.marks).forEach(
-            function([subject,mark]){
-                const row=document.createElement("tr");
-                const subjectCell=document.createElement("td");
-                subjectCell.textContent=subject;
-
-                const markacaell=document.createElement("td");
-                marksCell.textContent=mark;
-                row.appendChild(subjectCell);
-                row.appendChild(marksCell);
-                tableBody.appendChild(row);
-            }
-        );
+       
         result.textContent="Student data loaded successfully";
     }
     catch(error){
